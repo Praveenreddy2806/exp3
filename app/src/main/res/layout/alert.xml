@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/acerprediator"
+        android:background="#E4297D"
+        android:id="@+id/a_img"/>
+    <TextView
+        android:id="@+id/a_desc"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/a_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:text="Rs : 80000"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/a_quan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg2"
+        android:layout_margin="5dp"
+        android:hint="Enter Quantity"
+        android:paddingLeft="10dp"
+        android:inputType="number"/>
+
+</LinearLayout>

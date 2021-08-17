@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/a_name"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:text="acer aspire 7"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:id="@+id/a_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/dellalienware"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/a_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ASUS TUF Gaming F1 Intel Core i5-10300H 10th Gen, NVIDIA GeForce GTX 1650 4GB Graphics, Gaming Laptop(8GB/512GB SSDWindows 10/Gray/2.3 Kg)"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Quantity"
+                   android:textColor="@color/black"
+                   android:textSize="16dp"
+                   android:layout_marginTop="5dp"/>
+               <TextView
+                   android:id="@+id/a_quan"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=": 5"
+                   android:textColor="@color/black"
+                   android:textSize="16dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="5dp"/>
+
+           </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="5dp"/>
+                <TextView
+                    android:id="@+id/a_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": 80000"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
