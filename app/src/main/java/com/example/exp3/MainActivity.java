@@ -106,6 +106,12 @@ public class MainActivity extends AppCompatActivity {
 
     ListView list;
     int  status=0;
+//
+//    f
+//    f
+//            f
+//    f
+
 
 
     
